@@ -1,0 +1,16 @@
+Финальный отчет: Промпты для поиска функций (TypeScript)
+
+1. Файл: utils/userData.ts
+Этот модуль отвечает за работу с данными пользователя.
+
+Промпт: Найди функцию для загрузки профиля пользователя.
+Ожидаемый ответ: Система должна найти функцию loadUserProfile(userId: number) в файле typescript/utils/userData.ts.
+
+Промпт: Найди функцию для сохранения профиля пользователя.
+Ожидаемый ответ: Система должна найти функцию saveUserProfile(userId: number, data: Partial<UserProfile>) в файле typescript/utils/userData.ts.
+
+2. Файл: main.ts
+Это основной скрипт приложения.
+
+Промпт: Найди функцию для инициализации сессии пользователя.
+Ожидаемый ответ: Система должна найти функцию initializeUserSession(userId: number) в файле typescript/main.ts.

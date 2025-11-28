@@ -1,0 +1,21 @@
+Промты для поиска функций и ожидаемые ответы:
+
+Поиск функции-обработчика присоединения игрока:
+Промт: Найти функции, которые подключаются к событию Players.PlayerAdded.
+Ожидаемый ответ: ServerScriptService/GameLogicScript.lua будет содержать строку, похожую на Players.PlayerAdded:Connect(handlePlayerJoin).
+
+Поиск функций, обрабатывающих пользовательский ввод на клиенте:
+Промт: Найти функции, подключенные к событиям UserInputService или содержащие логику обработки ввода.
+Ожидаемый ответ: StarterPlayer/StarterPlayerScripts/ClientController.lua будет содержать определения функций и подключение к событию InputBegan, например, UserInputService.InputBegan:Connect(onInputBegan).
+
+Поиск функции обработки касания детали:
+Промт: Найти функцию, которая обрабатывает событие Touched для DummyPart.
+Ожидаемый ответ: Workspace/DummyPart/PartTouchScript.lua будет содержать строку part.Touched:Connect(onPartTouch).
+
+Поиск функции безопасного отключения событий:
+Промт: Найти определение функции disconnectEvent в EventUtils.lua.
+Ожидаемый ответ: ReplicatedStorage/Modules/EventUtils.lua будет содержать function EventUtils.disconnectEvent(connection).
+
+Поиск всех RemoteEvents или RemoteFunctions:
+Промт: Найти все места, где создаются или используются RemoteEvent или RemoteFunction для клиент-серверного взаимодействия.
+Ожидаемый ответ: Будут показаны строки, где объявляются или используются RemoteEvent (например, interactionEvent).

@@ -1,0 +1,16 @@
+Финальный отчет: Промпты для поиска функций (Java)
+
+1. Файл: src/main/java/com/example/app/utils/UserData.java
+Этот класс-утилита отвечает за работу с данными пользователя.
+
+Промпт: Найди метод для загрузки профиля пользователя.
+Ожидаемый ответ: Система должна найти метод loadUserProfile(int userId) в файле java/src/main/java/com/example/app/utils/UserData.java.
+
+Промпт: Найди метод для сохранения профиля пользователя.
+Ожидаемый ответ: Система должна найти метод saveUserProfile(int userId, Map<String, Object> data) в файле java/src/main/java/com/example/app/utils/UserData.java.
+
+2. Файл: src/main/java/com/example/app/Main.java
+Это основной класс приложения.
+
+Промпт: Найди метод для инициализации сессии пользователя.
+Ожидаемый ответ: Система должна найти метод initializeUserSession(int userId) в файле java/src/main/java/com/example/app/Main.java.

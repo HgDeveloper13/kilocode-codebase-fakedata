@@ -1,0 +1,145 @@
+{
+  "demo_completed_at": "2025-11-26T15:13:00.470451",
+  "statistics": {
+    "generated_at": "2025-11-26T15:13:00.359998",
+    "summary": {
+      "total_users": 5,
+      "total_projects": 2,
+      "total_tasks": 5,
+      "user_role_distribution": {
+        "admin": 1,
+        "moderator": 1,
+        "user": 2,
+        "guest": 1
+      },
+      "task_status_distribution": {
+        "completed": 2,
+        "pending": 2,
+        "in_progress": 1
+      },
+      "task_priority_distribution": {
+        "HIGH": 2,
+        "CRITICAL": 1,
+        "MEDIUM": 2
+      }
+    },
+    "top_contributors": [
+      {
+        "user_id": "7061e7a8-ee61-45f3-b528-ab9f96d6cc0e",
+        "task_count": 3,
+        "username": "jane_smith"
+      },
+      {
+        "user_id": "d4aa5cb7-0859-4c6d-b783-a4f400646532",
+        "task_count": 2,
+        "username": "manager"
+      }
+    ],
+    "system_health": {
+      "active_tasks": 1,
+      "completed_tasks": 2,
+      "overdue_tasks": 0,
+      "completion_rate": 40.0
+    }
+  },
+  "notification_history": [
+    {
+      "user_id": "61a64ece-2b74-4f49-9028-399a96b205c5",
+      "message": "Welcome to the system, admin!",
+      "type": "welcome",
+      "timestamp": "2025-11-26 15:13:00.340667",
+      "method": "email"
+    },
+    {
+      "user_id": "d4aa5cb7-0859-4c6d-b783-a4f400646532",
+      "message": "Welcome to the system, manager!",
+      "type": "welcome",
+      "timestamp": "2025-11-26 15:13:00.340985",
+      "method": "email"
+    },
+    {
+      "user_id": "95e4b6b6-75ae-4a1e-82c2-752e5d6b071a",
+      "message": "Welcome to the system, john_doe!",
+      "type": "welcome",
+      "timestamp": "2025-11-26 15:13:00.341139",
+      "method": "email"
+    },
+    {
+      "user_id": "7061e7a8-ee61-45f3-b528-ab9f96d6cc0e",
+      "message": "Welcome to the system, jane_smith!",
+      "type": "welcome",
+      "timestamp": "2025-11-26 15:13:00.341247",
+      "method": "email"
+    },
+    {
+      "user_id": "79ca3769-5d06-4c03-9de8-a6859b58aa5d",
+      "message": "Welcome to the system, guest_user!",
+      "type": "welcome",
+      "timestamp": "2025-11-26 15:13:00.341357",
+      "method": "email"
+    },
+    {
+      "user_id": "61a64ece-2b74-4f49-9028-399a96b205c5",
+      "message": "Project 'Website Redesign' has been created successfully!",
+      "type": "project_created",
+      "timestamp": "2025-11-26 15:13:00.341471",
+      "method": "email"
+    },
+    {
+      "user_id": "d4aa5cb7-0859-4c6d-b783-a4f400646532",
+      "message": "Project 'Mobile App' has been created successfully!",
+      "type": "project_created",
+      "timestamp": "2025-11-26 15:13:00.341631",
+      "method": "email"
+    },
+    {
+      "user_id": "95e4b6b6-75ae-4a1e-82c2-752e5d6b071a",
+      "message": "You have been assigned a new task: 'Design Mockups'",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.341776",
+      "method": "email"
+    },
+    {
+      "user_id": "7061e7a8-ee61-45f3-b528-ab9f96d6cc0e",
+      "message": "You have been assigned a new task: 'Frontend Development'",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342066",
+      "method": "email"
+    },
+    {
+      "user_id": "d4aa5cb7-0859-4c6d-b783-a4f400646532",
+      "message": "You have been assigned a new task: 'Backend API'",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342190",
+      "method": "email"
+    },
+    {
+      "user_id": "95e4b6b6-75ae-4a1e-82c2-752e5d6b071a",
+      "message": "You have been assigned a new task: 'Database Design'",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342297",
+      "method": "email"
+    },
+    {
+      "user_id": "7061e7a8-ee61-45f3-b528-ab9f96d6cc0e",
+      "message": "You have been assigned a new task: 'Testing'",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342449",
+      "method": "email"
+    },
+    {
+      "user_id": "7061e7a8-ee61-45f3-b528-ab9f96d6cc0e",
+      "message": "Task 'Design Mockups' has been assigned to you",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342566",
+      "method": "email"
+    },
+    {
+      "user_id": "d4aa5cb7-0859-4c6d-b783-a4f400646532",
+      "message": "Task 'Database Design' has been assigned to you",
+      "type": "task_assigned",
+      "timestamp": "2025-11-26 15:13:00.342641",
+      "method": "email"
+    }
+  ]
+}

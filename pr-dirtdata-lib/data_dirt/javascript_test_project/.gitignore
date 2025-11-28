@@ -1,0 +1,263 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime данные
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage директория используемая инструментами покрытия
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Скомпилированные бинарные аддоны (https://nodejs.org/api/addons.html)
+build/Release
+
+# Зависимости TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Rollup.js default build output
+dist/
+
+# Uncomment the public line in if your project uses Gatsby
+# https://nextjs.org/docs/api-reference/next.config.js/introduction
+# public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Logs
+logs
+*.log
+
+# Файлы операционной системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы редакторов
+*.sublime-project
+*.sublime-workspace
+
+# Файлы тестирования
+coverage/
+.nyc_output/
+
+# Файлы сборки
+build/
+dist/
+
+# Файлы конфигурации, которые могут содержать секреты
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.env.backup
+
+# Файлы базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Файлы загрузок
+uploads/
+public/uploads/
+
+# Файлы сессий
+sessions/
+
+# Файлы кеша
+.cache/
+cache/
+
+# Логи
+logs/
+*.log
+
+# Файлы конфигурации PM2
+ecosystem.config.js
+.pm2/
+
+# Файлы генерации документации
+docs/
+doc/
+
+# Файлы архивов
+*.zip
+*.tar.gz
+*.rar
+
+# Файлы резервных копий
+*.backup
+*.bak
+*.old
+
+# Файлы конфигурации системы мониторинга
+.sentryclirc
+
+# Файлы Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Файлы развертывания
+deployment/
+deploy/
+
+# Файлы тестирования производительности
+benchmarks/
+
+# Файлы трассировки
+trace/
+
+# Файлы статистики
+stats/
+
+# Файлы профилирования
+profile/
+
+# Файлы пакетов
+*.tar
+*.deb
+*.rpm
+
+# Файлы мониторинга
+monitoring/
+
+# Файлы мониторинга производительности
+performance/
+
+# Файлы анализа кода
+analysis/
+
+# Файлы отчетов о тестах
+test-results/
+junit.xml
+
+# Файлы конфигурации CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+circleci/
+
+# Файлы конфигурации облачных платформ
+.serverless/
+.cloud/
+terraform/
+ansible/
+
+# Файлы локальной разработки
+local/
+dev/
+development/
+
+# Файлы временных данных
+tmp/
+temp/
+temp-data/
+
+# Файлы поисковых индексов
+search-index/
+search-cache/
+
+# Файлы состояния приложения
+state/
+app-state/
+
+# Файлы рабочих процессов
+workflows/
+
+# Файлы генерации кода
+generated/
+gen/
+codegen/
+
+# Файлы кеша пакетов
+.npm-cache/
+.yarn-cache/
+pnpm-store/
